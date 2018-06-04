@@ -1,0 +1,3 @@
+/home/emanuel/projects/Emanuel Covaci, IE, PS Project/Emanuel Bank/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/emanuel/projects/Emanuel Covaci, IE, PS Project/Emanuel Bank/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/emanuel/projects/Emanuel Covaci, IE, PS Project/Emanuel Bank/cmake-build-debug/CMakeFiles/Emanuel_Bank.dir

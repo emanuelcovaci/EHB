@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Emanuel_Bank.dir/main.cpp.o  -o Emanuel_Bank 
