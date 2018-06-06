@@ -412,14 +412,22 @@ void payments_menu(vector<User> users, vector<Payment> payments) {
 int main() {
 
     vector<User> users;
-    users.push_back(User("Emanuel", "Covaci", "emanuelcovaci", "1"));
+    users.push_back(User("Emanuel", "Covaci", "emanuelcovaci", "iLovePS#2018"));
     users.push_back(User("Ionel", "UVT", "ioneluvt", "iLoveCocaCola"));
     users.push_back(User("Gica", "UPT", "gicaupt", "iLovePS#2018"));
 
     vector<Payment> payments_orders;
     payments_orders.push_back(Payment(0, "2018-07-01", "iPhone X", 999.0));
-    payments_orders.push_back(Payment(0, "2019-06-01", "Coca Cola x 100 buc", 150.00));
+    payments_orders.push_back(Payment(0, "2019-06-01", "Coca Cola x 100 buc", 1530.00));
     payments_orders.push_back(Payment(0, "2018-04-01", "Herbalife Breakfast", 25.0));
+
+    payments_orders.push_back(Payment(1, "2014-07-01", "iPhone", 9399.0));
+    payments_orders.push_back(Payment(1, "2012-06-01", "Coca Cola x 1500 buc", 150.00));
+    payments_orders.push_back(Payment(1, "2011-04-01", "Herbalife Breakfast", 25.0));
+
+    payments_orders.push_back(Payment(2, "2017-07-01", "iPhone X", 999.0));
+    payments_orders.push_back(Payment(2, "2019-06-01", "Coca Cola x 10550 buc", 1350.00));
+    payments_orders.push_back(Payment(2, "2012-04-01", "Herbalife Breakfast", 25.0));
 
 
     login_or_register(users);
