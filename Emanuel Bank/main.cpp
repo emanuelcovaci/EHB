@@ -314,6 +314,17 @@ void login_or_register(vector<User> users) {
     } while (choice != 3);
 }
 
+void create_an_payment(vector<Payment> &payments){
+    string date,message;
+    double value;
+    cout<<"Enter the date YYYY-MM-DD:";cin>>date;
+    cout<<"Enter the value:";cin>>value;
+    cout<<"Enter your message:";cin>>message;
+    payments.push_back((Payment(id_of_user,date,message,value)));
+
+
+}
+
 void payments_menu(vector<User> users, vector<Payment> payments) {
 
     int choice, choice_payment, choice_create;
@@ -383,6 +394,7 @@ void payments_menu(vector<User> users, vector<Payment> payments) {
 
                 break;
             case 2:
+                create_an_payment(payments);
 
                 break;
             default:
